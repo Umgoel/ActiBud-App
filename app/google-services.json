@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "860982280152",
+    "project_id": "acti-bud",
+    "storage_bucket": "acti-bud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860982280152:android:681dac30ae6d6f19523cad",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860982280152-qvb2j46fr7uchbaif4h24ha7oloopalo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6pgR8-wh35fsKkgDn3fBpuN9RWloJSwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860982280152-qvb2j46fr7uchbaif4h24ha7oloopalo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsideActivity"
+    android:background="@drawable/background">
+<!--    android:background="@color/primary_color">-->
+
+    <TextView
+        android:id="@+id/tv_started_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:text="@string/started_title"
+        android:fontFamily="@font/montserrat"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_started_sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/started_sub_title"
+        android:fontFamily="@font/montserrat"
+        android:lineHeight="20sp"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_started_title" />
+
+    <ImageView
+        android:id="@+id/img_illustration_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/illustration_img"
+        android:src="@drawable/illustration_started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_background"
+        android:text="@string/btn_login"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#00F778"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        style="@style/ButtonWhite"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        style="@style/ButtonWhite"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_background"
+        android:text="@string/btn_register"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#00F778"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
